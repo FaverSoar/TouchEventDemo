@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+    <com.cs.toucheventdemo.ScrollViewListVeiw
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_green_light">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:clickable="true"
+            android:text="view1"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:clickable="true"
+            android:text="view2"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:clickable="true"
+            android:text="view3"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:clickable="true"
+            android:text="view4"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:clickable="true"
+            android:text="view5"/>
+    </com.cs.toucheventdemo.ScrollViewListVeiw>
+</LinearLayout>
